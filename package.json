@@ -1,0 +1,15 @@
+{
+  "name": "simulasi-github-digital-kampus",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Demo kolaborasi GitHub dan DevOps",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test",
+    "lint": "node --check src/server.js && node --check test/server.test.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
